@@ -1,0 +1,26 @@
+uavcan.Timestamp timestamp
+
+int16 manufacturer_number          
+int16 battery_model_code           
+uint16 voltage                      
+int16 current                      
+int16 temperature                                      
+uint16 percentage        
+uint16 cycle_count         
+int16 state_of_health_pct        
+uint16 voltage_cell1            
+uint16 voltage_cell2            
+uint16 voltage_cell3            
+uint16 voltage_cell4            
+uint16 voltage_cell5            
+uint16 voltage_cell6            
+uint16 voltage_cell7            
+uint16 voltage_cell8            
+uint16 voltage_cell9            
+uint16 voltage_cell10           
+uint16 voltage_cell11           
+uint16 voltage_cell12           
+uint32 sive
+uint16 battery_design_capacity      
+uint16 remaining_battery_capacity   
+uint32 error_info
