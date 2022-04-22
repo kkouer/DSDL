@@ -1,5 +1,7 @@
 uavcan.Timestamp timestamp
 
+float16 remaining_capacity_wh
+float16 full_charge_capacity_wh
 int16 manufacturer_number          
 int16 battery_model_code           
 uint16 voltage                      
@@ -7,7 +9,8 @@ int16 current
 int16 temperature                                      
 uint16 percentage        
 uint16 cycle_count         
-int16 state_of_health_pct        
+int16 state_of_health_pct     
+int16 state_of_charge_pct     
 uint16 voltage_cell1            
 uint16 voltage_cell2            
 uint16 voltage_cell3            
@@ -22,5 +25,6 @@ uint16 voltage_cell11
 uint16 voltage_cell12           
 uint32 sive
 uint16 battery_design_capacity      
-uint16 remaining_battery_capacity   
+uint16 remaining_battery_capacity
 uint32 error_info
+uint8 battery_id
